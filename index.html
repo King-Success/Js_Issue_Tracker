@@ -10,6 +10,28 @@
        
         <div class="container">
            <h1>JS IssueTracker <small>by Agora.com</small></h1>
+           <div class="jumbotron">
+               <h3>Add New Issue</h3>
+               <form action="" id="issueInputForm">
+                   <div class="form-group">
+                       <label for="IssueDescInput">Description</label>
+                       <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the Issue">
+                   </div>
+                   <div class="form-group">
+                       <label for="IssueSeverityInput">Severity</label>
+                       <select name="" id="issueSeverityInput" class="form-control">
+                           <option value="Low">Low</option>
+                           <option value="Medium">Meduim</option>
+                           <option value="High">High</option>
+                       </select>
+                   </div>
+                   <div class="form-group">
+                       <label for="IssueDescInput">Assigned To</label>
+                       <input type="text" class="form-control" id="issueAssignedTOInput" placeholder="Enter Assigned To">
+                   </div>
+                   <button class="btn btn-primary">Add</button>
+               </form>
+           </div>
             
             
         </div>
@@ -19,4 +41,4 @@
         <script src="main.js"></script> 
 
     </body>
-</html>
+</html> 

@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   
     </head>
-    <body>
+    <body onload="fetchIssues()">
        
         <div class="container">
            <h1>JS IssueTracker <small>by Agora.com</small></h1>
@@ -18,7 +18,7 @@
                        <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the Issue">
                    </div>
                    <div class="form-group">
-                       <label for="IssueSeverityInput">Severity</label>
+                        <label for="IssueSeverityInput">Severity</label>
                        <select name="" id="issueSeverityInput" class="form-control">
                            <option value="Low">Low</option>
                            <option value="Medium">Meduim</option>
